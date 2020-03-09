@@ -1,0 +1,23 @@
+.TContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400%;
+}
+.Tgrid{
+    flex:0 0 100%;
+    max-width: 100%;
+    overflow-x: visible;
+}
+.Tgrid p{
+    width: 60%;
+    font-size: 14px;
+}
+.Tgrid img{
+    width: auto;
+    height: auto;
+}
+.Tcontent{
+    font-size: 14px;
+    width: 60%;
+    
+}

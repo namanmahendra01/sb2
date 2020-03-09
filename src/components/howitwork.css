@@ -1,0 +1,33 @@
+.section{
+    width: 100%;
+    text-align: center;
+}
+.sectionHead{
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #2196f3;
+}
+.sectionSub{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.centerSectionSub{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 36px !important;
+}
+.sectionList{
+    flex: 0 0 16.67%;
+    max-width: 16.67%; 
+}
+.sectionList p{
+    text-align: center;
+    padding: 20px;
+}
+.sectionList h1{
+    color: #124F8D;
+}

@@ -1,0 +1,135 @@
+.pFooter{
+    background:#124F8D;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100%;
+}
+
+.centerPFooter{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 -15px;
+}
+.startPFooter{
+    flex: 0 0 16.67%;
+    max-width: 16.67%;
+}
+.newsletter{
+    padding: 50px;
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+}
+.emailFill{
+    margin-bottom:1rem ;
+}
+.emailFill label{
+    margin-bottom: .5rem;
+}
+.emailFill input{
+    width: 100%;
+    height: 2rem;
+    padding-left: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #999;
+    border-radius:5px;
+}
+.emailFill p{
+    color: #999;
+    font-size: 75%;
+    font-weight: 600;
+}
+.btn{
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #007bff;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border-color: transparent;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background-color:  #F9B73C;
+    color: black;
+    border: 1px solid black;
+}
+.midPFooter{
+    flex: 0 0 16.67%;
+    max-width: 16.67%;
+}
+.desContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+}
+.innerDesContainer{
+    display: flex;
+    font-size: 16px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+#logo1{
+    overflow-y: hidden;
+
+}
+
+.location{
+    font-size: 20px;
+}
+.footer{
+    font-size: 14px;
+    text-align: center !important;
+    background-color: #343a40;
+    color: white !important;
+}
+.centerFooter{
+    width: 100%;
+    max-width: 10px auto !important;
+}
+.footerRow{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.rooms{
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+    padding: 0 15px;
+}
+.roomHead{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1em 0px;
+}
+.listStyle{
+    display: block;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.footDetails:hover{
+    text-decoration: underline;
+}
+.copyright{
+    background-color: #24272a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.delink {
+    text-decoration: none;
+    color: inherit;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin {
+  padding: 20px;
+}

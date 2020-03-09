@@ -1,0 +1,51 @@
+.whyuseusContainer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.whyuseusHead h1{
+    text-align: center;
+    color: #23A5DE;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.whyuseusHead p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.whyuseusContent{
+    vertical-align: middle;
+}
+.whyuseusRow{
+    display: flex;
+    width: fit-content;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.whyuseusGrid{
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px;
+}
+.whyuseusGrid:hover{
+    -webkit-box-shadow: 0 0 30px black;
+    box-shadow: 0 0 30px black;
+}
+.whyuseusGrid img{
+    width: 30%;
+}
+.whyuseusGrid h3{
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    margin-bottom: 16px;
+}
+.whyuseusGrid p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;   
+}

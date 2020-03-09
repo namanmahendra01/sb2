@@ -1,0 +1,145 @@
+
+
+.typecontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.starttype{
+    flex: 0 0 20%;
+
+}
+.midtype{
+    flex: 0 0 60%;
+
+}
+.endtype{
+    flex: 0 0 20%;
+
+}
+.typerow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rtb1{
+    flex: 0 0 25%;
+    border-radius: 10px ;
+    height: fit-content;
+    -webkit-box-shadow: 0px 0px 6px 5px rgba(217,204,217,0.89);
+-moz-box-shadow: 0px 0px 6px 5px rgba(217,204,217,0.89);
+box-shadow: 0px 0px 6px 5px rgba(217,204,217,0.89);
+}
+.typeimage img{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    vertical-align: middle;
+    border-style: none;
+}
+.Inventtype{
+    text-align: center;
+}
+#toptype{
+    color: #23A5DE;
+    font-size: 50px;
+}
+.typehead{
+    text-align: center;
+    color: #23A5DE;
+}
+.typedetail{
+    text-align: center;
+}
+#p1{
+font-size: 20px;
+font-weight: 700;
+}
+.rtb0{
+    flex: 0 0 25%;
+
+    padding: 20px;
+}
+
+
+.typeslider1 {
+    text-align: center;
+  }
+   
+  .typeslider1-logo {
+    height: 40vmin;
+  }
+   
+  .typeslider1-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+   
+  .typeslider1-link {
+    color: #09d3ac;
+  }
+   
+  
+   
+  .slides .slick-prev,
+  .slides .slick-next {
+    position: absolute;
+    top: 95%;
+    z-index: 1;
+    color: solid black;
+  }
+  
+  
+  .slides {
+    position: relative;
+  }
+  
+  
+  .slides .slick-prev {
+    left: 5%;
+    color: solid black;
+  }
+  
+  .slides .slick-next {
+    right: 5%;
+    color:  black ;
+
+  }
+  .slick-prev::before{
+      color: black !important;
+  }
+  .slick-next::before{
+    color: black !important;
+}
+  .image3 img{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    vertical-align: middle;
+    border-style: none;
+}
+  .slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;overflow-y: hidden;
+
+   
+
+  }
+  .slick-dots {
+    position: relative;
+    bottom: 0px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}

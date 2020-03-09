@@ -1,0 +1,22 @@
+.item{
+    width: 100%;
+    align-items: left;
+}
+.question{
+    color: #23A5DE;
+    border-bottom:1px solid #ddd ;
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+.answer p{
+    max-height: 0;
+    font-size: 14px;
+    padding: 0px;
+    transition: all 0.5s ease-in-out;
+    margin: 0;
+}
+.item:hover .answer p{
+    max-height: 20rem;
+    padding: 4px;
+}
+

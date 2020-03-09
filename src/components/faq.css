@@ -1,0 +1,35 @@
+.container2{
+    width: 100%;
+    margin: 50px auto;
+    padding: 0 1.5rem;
+}
+.fcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.startAccordion{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.accordion{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.endAccordion{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.collapsible{
+    border:1px solid #124F8D;
+    border-radius: 5px;
+    padding:3px 15px ;
+    font-size: 30px;
+    background-color:#124F8D ;
+    color: #23A5DE;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 22% ;
+}
+.collapsible:hover{
+    background-color: #F9B73C;
+}

@@ -1,0 +1,30 @@
+.carousel{
+    position: relative;
+}
+.carousel img{
+    width:100vw !important;
+    height:100vh !important;
+}
+.slideContent{
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    z-index: 1000;
+    width: 40%;
+    height: 35%;
+    background: rgba(255, 255, 255, 0.75);
+    color:black;
+}
+.slideContent h1{
+    padding-top: 40px;
+    font-size:4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #23A5DE;
+    text-align: center;
+}
+.slideContent p{
+    font-size: 2vh;
+    font-weight: lighter;
+    text-align: center;
+}

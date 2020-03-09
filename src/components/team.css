@@ -1,0 +1,84 @@
+.team1{
+    background-color:  #fafafa;
+    padding: 75px;
+
+}
+.teamhead{
+    align-content: center;
+    padding: 25px;
+}
+
+.teammain{
+    font-size: 20px;
+    text-align: center;
+    color:  #23A5DE;
+
+}
+
+.teammain2{
+    text-align: center;
+    padding-bottom: 10px;
+    }
+    .containerTeamContent{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .startTeamContent{
+        flex: 0 0 16.67%;
+        max-width: 16.67%;
+    }
+    .teamcontent{
+        flex: 0 0 66.67%;
+        max-width: 66.67%;
+    }
+    .endTeamContent{
+        flex: 0 0 16.67%;
+        max-width: 16.67%;
+    }
+    .rt1{
+        display: flex;
+        flex-wrap: wrap;
+        max-height: min-content;
+        padding-bottom: 25px;
+    }
+    .rt2{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .blk{
+        flex:0 0 25%;
+        padding: 10px;
+    }
+    .b1{
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+        position: relative;
+        z-index: 1;
+        transition: box-shadow 1s ease-out;
+        -webkit-transition: box-shadow 1s ease-out;
+        box-shadow: 0 0 6px #4b4a4a ;
+
+    }
+    .b1:hover{
+        -webkit-box-shadow: 0 0 30px black  ;
+         box-shadow: 0 0 30px black ;
+         z-index:10;
+
+    }
+    
+.rb1{
+    padding-top: 20px;
+    font-size: 6px;
+    text-align: center;
+    color: black;
+    
+}
+.rb2{
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+    
+}

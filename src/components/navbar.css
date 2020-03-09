@@ -1,0 +1,56 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-shadow: rgba(1, 1, 1, 0.5) 2px 2px 30px;
+    z-index: 4000;        
+}
+.logo {
+    margin: 1% 2.5% 1% 2%;
+    height: 45%;
+    width: 8%;
+}
+.menu__list {
+    flex-direction: row;
+    list-style-type: none;
+    margin: auto 0px;
+    justify-content:flex-end;
+}
+.menu__list-item {  
+    height: 100%;
+    padding: 5px 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.menu__list-item:last-child {
+  background-color: #124F8D; 
+  border-radius: 4px;
+  margin-right: 1vw;
+  transition: all 0.5s ease;
+}
+.menu__list-item:last-child a {
+    color:#ffffff;
+    transition: color 0.0s ease;
+}
+.menu__list-item:last-child a:hover {
+    color:#000000;
+}
+.menu__list-item:last-child:hover {
+    background: #F9B73C;
+    border: 1px #124F8D solid;
+}
+.menu__link {
+    color: #124F8D;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none ;
+    padding: 0 5px;
+}
+.whatsapp{
+     top: 50%;
+     color:#124F8D ;
+     
+    }
